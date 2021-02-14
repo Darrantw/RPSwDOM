@@ -1,0 +1,55 @@
+.icons {
+    height: 400px;
+    width: 400px;
+    padding: 1em;
+    margin: 2em;
+    background-size: 100%;
+}
+
+.scores {
+    height: 200px;
+    width: 200px;
+    padding: 1em;
+    margin: 0em;
+}
+
+
+#rock {
+    background-image: url("icons/cartoon-rock.jpg");
+}
+
+#paper {
+    background-image: url("icons/cartoon-paper.jpg");
+    
+}
+
+#scissors {
+    background-image: url("icons/cartoon-scissors.png");
+}
+.button-area {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text {/*
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;*/
+    margin: 10px auto;
+    display: -webkit-box;   
+    display: -moz-box;  
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 90%;
+}
